@@ -48,5 +48,4 @@ export default function TrustedCustomers() {
   );
 }
 
-// Trusted by over 6K+ customers
 // TrustedCustomers
