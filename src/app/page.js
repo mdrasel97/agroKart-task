@@ -12,6 +12,8 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import LandscapeProducts from "./pages/landscapeProducts/LandscapeProducts";
+import TrustedCustomers from "./pages/trastedCustomer/TrustedCustomers";
+import WhyChooseUs from "./pages/whyChooseUs/WhyChooseUs";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -79,6 +81,8 @@ export default function Home() {
       <div>
         <LandscapeProducts />
       </div>
+      <TrustedCustomers />
+      <WhyChooseUs />
     </div>
   );
 }
