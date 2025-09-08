@@ -1,9 +1,10 @@
-import Image from "next/image";
+import Banner from "./pages/Banner";
 
 export default function Home() {
   return (
     <div>
-      <h1>project</h1>
+      {/* <h1>project</h1> */}
+      <Banner />
     </div>
   );
 }
