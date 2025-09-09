@@ -15,6 +15,7 @@ import LandscapeProducts from "./pages/landscapeProducts/LandscapeProducts";
 import TrustedCustomers from "./pages/trastedCustomer/TrustedCustomers";
 import WhyChooseUs from "./pages/whyChooseUs/WhyChooseUs";
 import MarqueePage from "./pages/marquee/MarqueePage";
+import CustomerReviews from "./pages/customerReviews/CustomerReviews";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -85,6 +86,7 @@ export default function Home() {
       <TrustedCustomers />
       <WhyChooseUs />
       <MarqueePage />
+      <CustomerReviews />
     </div>
   );
 }

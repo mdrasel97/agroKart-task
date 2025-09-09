@@ -128,8 +128,8 @@ export default function Footer() {
       </Card>
       <div className="flex items-center justify-between w-10/12 mx-auto">
         <div className="mt-0 py-4 text-center text-gray-400 text-sm">
-          &copy; {new Date().getFullYear()} Your Company Name. All rights
-          reserved.
+          Copyright &copy; {new Date().getFullYear()} JF Products. All rights
+          reserved
         </div>
         <div className="">
           <div className="flex space-x-4">
