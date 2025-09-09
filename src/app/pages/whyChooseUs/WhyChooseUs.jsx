@@ -6,6 +6,7 @@ import {
   DollarSign,
   Award,
 } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function WhyChooseUs() {
   const features = [
@@ -54,6 +55,9 @@ export default function WhyChooseUs() {
             </div>
           ))}
         </div>
+      </div>
+      <div className="mx-auto w-full text-center">
+        <Button className={"mt-5 text-center"}>Contact Us</Button>
       </div>
     </section>
   );
