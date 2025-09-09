@@ -23,7 +23,7 @@ export default function CustomerReviews() {
       name: "Mike Johnson",
       position: "Developer",
       text: "I had initial issue with stock availability and delivery. Once the product arrived on site the work has completed very fast(400ft.) Value for money and easy to install. Happy with the product",
-      image: "/assets/customer3.jpg",
+      image: "/assets/customer2.jpeg",
     },
   ];
 

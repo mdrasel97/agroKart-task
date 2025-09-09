@@ -18,13 +18,10 @@ export default function Navbar() {
             <Link href="/" className="text-gray-700 hover:text-gray-900">
               Home
             </Link>
-            <Link
-              href="/products"
-              className="text-gray-700 hover:text-gray-900"
-            >
+            <Link href="/shops" className="text-gray-700 hover:text-gray-900">
               Shop
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-gray-900">
+            <Link href="/blogs" className="text-gray-700 hover:text-gray-900">
               Blogs
             </Link>
             <Link href="/contact" className="text-gray-700 hover:text-gray-900">
