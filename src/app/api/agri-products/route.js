@@ -8,7 +8,7 @@ export async function GET() {
       price: 35.5,
       button: "Shop Now",
       details: "High-quality fresh rice directly from local farmers.",
-      image: "/assets/agri/rice.jpg",
+      image: "/assets/product1.jpg",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ export async function GET() {
       price: 28.0,
       button: "Shop Now",
       details: "Organic wheat with natural nutrients for healthy meals.",
-      image: "/assets/agri/wheat.jpg",
+      image: "/assets/product2.jpeg",
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ export async function GET() {
       price: 20.0,
       button: "Shop Now",
       details: "Fresh farm potatoes, suitable for multiple recipes.",
-      image: "/assets/agri/potato.jpg",
+      image: "/assets/product3.jpeg",
     },
     {
       id: 4,
@@ -32,7 +32,7 @@ export async function GET() {
       price: 30.0,
       button: "Shop Now",
       details: "Ripe and juicy tomatoes, naturally grown without chemicals.",
-      image: "/assets/agri/tomato.jpg",
+      image: "/assets/product4.jpeg",
     },
     {
       id: 5,
@@ -40,7 +40,7 @@ export async function GET() {
       price: 25.0,
       button: "Shop Now",
       details: "Fresh red onions directly from the field.",
-      image: "/assets/agri/onion.jpg",
+      image: "/assets/product5.jpeg",
     },
     {
       id: 6,
@@ -48,7 +48,7 @@ export async function GET() {
       price: 40.0,
       button: "Shop Now",
       details: "Assorted seasonal green vegetables full of vitamins.",
-      image: "/assets/agri/vegetables.jpg",
+      image: "/assets/product6.jpeg",
     },
     {
       id: 7,
@@ -56,7 +56,7 @@ export async function GET() {
       price: 15.0,
       button: "Shop Now",
       details: "Natural sugarcane fresh from the farm fields.",
-      image: "/assets/agri/sugarcane.jpg",
+      image: "/assets/product7.jpeg",
     },
     {
       id: 8,
@@ -64,7 +64,7 @@ export async function GET() {
       price: 60.0,
       button: "Shop Now",
       details: "Sweet and delicious mangoes from local orchards.",
-      image: "/assets/agri/mango.jpg",
+      image: "/assets/product8.jpeg",
     },
     {
       id: 9,
@@ -72,7 +72,7 @@ export async function GET() {
       price: 349.99,
       button: "Shop Now",
       details: "Ultra HD 4K 27-inch monitor with HDR support and slim bezels.",
-      image: "/assets/products/monitor.jpg",
+      image: "/assets/product9.jpeg",
     },
     {
       id: 10,
@@ -81,7 +81,7 @@ export async function GET() {
       button: "Shop Now",
       details:
         "10000mAh portable power bank with fast charging and dual USB ports.",
-      image: "/assets/products/powerbank.jpg",
+      image: "/assets/product10.jpeg",
     },
   ];
 

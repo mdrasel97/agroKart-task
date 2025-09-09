@@ -34,7 +34,7 @@ export default function Footer() {
 
               <button
                 type="submit"
-                className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors w-full"
+                className="bg-white text-black px-4 py-2 rounded-md hover:bg-blue-700 transition-colors w-full"
               >
                 Join Now
               </button>
@@ -107,17 +107,17 @@ export default function Footer() {
         </CardContent>
 
         {/* logo area  */}
-        <div className="flex items-center justify-between w-10/12 mx-auto">
-          <div className="flex items-center justify-center gap-2">
+        <div className="md:flex items-center justify-between w-10/12 mx-auto">
+          <div className="flex items-center justify-center gap-3">
             <div>
               <img
                 src="/assets/logo.png"
-                className="w-24 bg-white rounded-full h-28"
+                className="w-8 md:w-24 bg-white rounded-full h-28"
                 alt=""
               />
             </div>
             <div>
-              <h3>Our Branches</h3>
+              <h3 className="text-lg font-semibold ">Our Branches</h3>
               <p>Coimbatore, Chennai, Hyderabad, Goa, Kochi</p>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function Footer() {
           </div>
         </div>
       </Card>
-      <div className="flex items-center justify-between w-10/12 mx-auto">
+      <div className="md:flex items-center justify-between w-10/12 mx-auto">
         <div className="mt-0 py-4 text-center text-gray-400 text-sm">
           Copyright &copy; {new Date().getFullYear()} JF Products. All rights
           reserved

@@ -66,8 +66,8 @@ export default function Banner() {
         </CarouselContent>
 
         {/* Custom Positioned Arrows */}
-        <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white shadow-md rounded-full" />
-        <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white shadow-md rounded-full" />
+        <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-primary shadow-md rounded-full" />
+        <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-primary shadow-md rounded-full" />
       </Carousel>
     </div>
   );

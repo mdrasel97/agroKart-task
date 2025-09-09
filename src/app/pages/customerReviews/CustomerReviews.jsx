@@ -35,34 +35,43 @@ export default function CustomerReviews() {
     setCurrent(current === 0 ? reviews.length - 1 : current - 1);
 
   return (
-    <section className="max-w-6xl mx-auto py-10 px-6 mt-20">
-      <h2 className="text-center text-2xl mb-5">Why Customers Love ❤️ Us?</h2>
-      <CardContent className="flex flex-col md:flex-row items-center gap-6">
+    <section className="max-w-6xl mx-auto py-16 px-6 mt-16">
+      {/* Section Title */}
+      <h2 className="text-center text-3xl md:text-4xl font-bold mb-12">
+        Why Customers Love ❤️ Us?
+        <div className="w-24 h-1 bg-blue-900 mx-auto mt-3 rounded-full"></div>
+      </h2>
+
+      <CardContent className="flex flex-col md:flex-row items-center gap-10">
         {/* Left: Customer Review */}
-        <div className="md:w-3/5 bg-gray-100 p-5">
-          <p className="text-lg md:text-xl text-gray-700 dark:text-gray-200 mb-4">
-            {reviews[current].text}
+        <div className="md:w-3/5 w-full bg-white  p-10 rounded-2xl shadow-lg border ">
+          <p className="text-lg md:text-xl text-gray-700 dark:text-gray-200 mb-6 leading-relaxed italic">
+            "{reviews[current].text}"
           </p>
+
+          {/* content bottom */}
           <div className="flex items-center justify-between">
+            {/* Name + Position */}
             <div>
-              <h3 className="text-md font-bold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 {reviews[current].name}
               </h3>
               <p className="text-sm text-gray-500">
                 {reviews[current].position}
               </p>
             </div>
+
             {/* Carousel Controls */}
-            <div className="flex items-center space-x-4 mt-6">
+            <div className="flex items-center space-x-3">
               <button
                 onClick={prevSlide}
-                className="p-2 bg-gray-200 rounded-full hover:bg-gray-300"
+                className="p-2 rounded-full border border-gray-300 hover:bg-blue-600 hover:text-white transition"
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
               <button
                 onClick={nextSlide}
-                className="p-2 bg-gray-200 rounded-full hover:bg-gray-300"
+                className="p-2 rounded-full border border-gray-300 hover:bg-blue-600 hover:text-white transition"
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
@@ -71,8 +80,8 @@ export default function CustomerReviews() {
         </div>
 
         {/* Right: Customer Image */}
-        <div className="md:w-2/5 flex justify-center ">
-          <div className="w-48 h-48 relative overflow-hidden bg-gray-100 p-5">
+        <div className="md:w-2/5 flex justify-center">
+          <div className="w-48 h-48 relative rounded-full overflow-hidden shadow-lg ring-4 ring-blue-200">
             <Image
               src={reviews[current].image}
               alt={reviews[current].name}

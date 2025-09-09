@@ -4,14 +4,14 @@ import Marquee from "react-fast-marquee";
 
 export default function MarqueePage() {
   const items = [
-    { text: "Product Quality", img: "/assets/logo.png" },
-    { text: "India Quelldkfjk", img: "/assets/logo.png" },
-    { text: "Fast Delivery", img: "/assets/logo.png" },
-    { text: "Best Service", img: "/assets/logo.png" },
-    { text: "Product Quality", img: "/assets/logo.png" },
-    { text: "India Quelldkfjk", img: "/assets/logo.png" },
-    { text: "Fast Delivery", img: "/assets/logo.png" },
-    { text: "Best Service", img: "/assets/logo.png" },
+    { text: "Quality Product", img: "/assets/logo.png" },
+    { text: "Shipping Across India", img: "/assets/logo.png" },
+    { text: "Quality Product", img: "/assets/logo.png" },
+    { text: "Shipping Across India", img: "/assets/logo.png" },
+    { text: "Quality Product", img: "/assets/logo.png" },
+    { text: "Shipping Across India", img: "/assets/logo.png" },
+    { text: "Quality Product", img: "/assets/logo.png" },
+    { text: "Shipping Across India", img: "/assets/logo.png" },
   ];
 
   return (
@@ -20,7 +20,7 @@ export default function MarqueePage() {
       speed={50}
       pauseOnHover={true}
       gradient={false}
-      className="py-4 bg-red-300 rotate-3"
+      className="py-4 bg-[#D9ECFF] rotate-3"
     >
       {items.map((item, idx) => (
         <div key={idx} className="flex items-center gap-2 px-6 flex-shrink-0">

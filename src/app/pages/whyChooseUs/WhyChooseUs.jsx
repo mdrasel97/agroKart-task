@@ -33,10 +33,10 @@ export default function WhyChooseUs() {
     <section className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Section Title */}
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Why <span className="text-blue-600"> Us</span>
+        <h2 className="text-3xl md:text-3xl font-bold mb-4">
+          Why <span className="text-blue-900"> Us</span>
         </h2>
-        <p className="text-gray-600 w-3/6 mx-auto mb-12">
+        <p className="text-gray-600 md:w-3/6 mx-auto mb-12">
           We specialize in delivering durable and innovative fencing solutions
           built to last. With a focus on quality and trust, we help secure
           spaces across industries and communities.
@@ -47,7 +47,7 @@ export default function WhyChooseUs() {
           {features.map((item, index) => (
             <div
               key={index}
-              className="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition hover:bg-gradient-to-tr from-[#002B55] to-blue-800 hover:text-white"
+              className="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-2 hover:bg-gradient-to-tr from-[#002B55] to-blue-800 hover:text-white duration-300"
             >
               <div className="flex justify-center mb-4">{item.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{item.title}</h3>

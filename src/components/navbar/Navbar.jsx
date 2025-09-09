@@ -10,8 +10,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="w-full bg-white shadow-md sticky top-0 z-50 mx-auto">
+      <div className="md:w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Left: Nav Links */}
           <div className="hidden md:flex space-x-6">

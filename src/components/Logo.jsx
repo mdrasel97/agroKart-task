@@ -7,7 +7,7 @@ export default function Logo() {
       <img
         src={"/assets/logo.png"}
         alt="logo image"
-        className="md:mt-18 w-16 h-16 md:w-[150px] md:h-[120px] bg-white rounded-4xl"
+        className="md:mt-12 w-16 h-16 md:w-[120px] md:h-[100px] bg-white rounded-4xl"
       />
     </div>
   );
