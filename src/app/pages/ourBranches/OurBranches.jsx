@@ -1,9 +1,18 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 // import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+
+const branches = [
+  { id: 1, name: "COIMBATORE", icon: "/assets/coimbatore.png" },
+  { id: 2, name: "CHENNAI", icon: "/assets/chennai.png" },
+  { id: 3, name: "HYDERABAD", icon: "/assets/hyderabad.png" },
+  { id: 4, name: "GOA", icon: "/assets/goa.png" },
+  { id: 5, name: "KOCHI", icon: "/assets/kochi.png" },
+  { id: 6, name: "MUMBAI", icon: "/assets/mumbai.png" },
+];
 
 export default function OurBranches() {
   return (
@@ -15,6 +24,18 @@ export default function OurBranches() {
       </h2>
 
       <Card className="max-w-7xl mx-auto shadow-lg rounded-2xl">
+        <div className="mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 justify-items-center">
+            {branches.map((branch) => (
+              <Card
+                key={branch.id}
+                className={`flex flex-col items-center justify-center p-4 cursor-pointer transition rounded-xl border hover:bg-[#d2e591]`}
+              >
+                <p className={`text-sm font-semibold`}>{branch.name}</p>
+              </Card>
+            ))}
+          </div>
+        </div>
         <CardContent className="flex flex-col md:flex-row gap-10 p-8">
           {/* Left: Contact Form */}
           <div className="md:w-1/2 bg-gradient-to-br from-[#002B55] to-blue-900 text-white p-8 rounded-xl shadow-md">

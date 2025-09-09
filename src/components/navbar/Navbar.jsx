@@ -39,7 +39,7 @@ export default function Navbar() {
           {/* Right: Actions */}
           <div className="flex items-center space-x-4">
             <Button variant="outline" size="sm" asChild>
-              <Link href="/login">Login</Link>
+              <Link href="/auth/login">Login</Link>
             </Button>
             <Search className="w-5 h-5 cursor-pointer" />
             <ShoppingCart className="w-5 h-5 cursor-pointer" />
@@ -69,16 +69,16 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="/products"
+              href="/shops"
               className="block text-gray-700 hover:text-gray-900"
             >
               Shop
             </Link>
             <Link
-              href="/about"
+              href="/blogs"
               className="block text-gray-700 hover:text-gray-900"
             >
-              About
+              blogs
             </Link>
             <Link
               href="/contact"
@@ -86,12 +86,12 @@ export default function Navbar() {
             >
               Contact
             </Link>
-            <Link
+            {/* <Link
               href="/login"
               className="block text-gray-700 hover:text-gray-900"
             >
               Login
-            </Link>
+            </Link> */}
           </div>
         </div>
       )}

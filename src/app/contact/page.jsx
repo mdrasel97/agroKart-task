@@ -48,11 +48,11 @@ export default function Contact() {
                   info@example.com
                 </li>
                 <li className="flex items-center gap-3">
-                  <Phone className="w-5 h-5 text-blue-600" />
+                  <Phone className="w-5 h-5 text-blue-800" />
                   +880 1234 567 890
                 </li>
                 <li className="flex items-center gap-3">
-                  <MapPin className="w-5 h-5 text-blue-600" />
+                  <MapPin className="w-5 h-5 text-blue-800" />
                   123 Main Street, Dhaka, Bangladesh
                 </li>
               </ul>

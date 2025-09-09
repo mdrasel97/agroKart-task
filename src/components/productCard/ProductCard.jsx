@@ -22,10 +22,10 @@ export default function ProductCard({ product }) {
         <CardContent className="p-4 space-y-3">
           <h3 className="text-xl font-semibold">{product.name}</h3>
           <p className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
-            <MapPin className="w-4 h-4 text-blue-600" />
+            <MapPin className="w-4 h-4 text-blue-800" />
             {product.location}
           </p>
-          <Button className="w-full bg-blue-600 hover:bg-blue-700">
+          <Button className="w-full bg-blue-800 hover:bg-blue-900">
             Visit Shop
           </Button>
         </CardContent>

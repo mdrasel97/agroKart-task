@@ -133,11 +133,11 @@ export default function Footer() {
         </div>
         <div className="">
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-blue-500">
+            <a
+              href="https://web.facebook.com/mollarasel24/"
+              className="hover:text-blue-500"
+            >
               <Facebook />
-            </a>
-            <a href="#" className="hover:text-blue-400">
-              <Twitter />
             </a>
             <a href="#" className="hover:text-pink-500">
               <Instagram />

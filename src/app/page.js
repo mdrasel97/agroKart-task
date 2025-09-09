@@ -18,17 +18,25 @@ import MarqueePage from "./pages/marquee/MarqueePage";
 import CustomerReviews from "./pages/customerReviews/CustomerReviews";
 import { Button } from "@/components/ui/button";
 import OurBranches from "./pages/ourBranches/OurBranches";
+import Loading from "./loading";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    setLoading(true);
     fetch("/api/agri-products")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
+        setLoading(false);
       });
   }, []);
+
+  if (loading) {
+    return <Loading></Loading>;
+  }
 
   // console.log(products);
   return (
