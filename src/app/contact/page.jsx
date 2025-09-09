@@ -49,7 +49,7 @@ export default function Contact() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-blue-800" />
-                  +880 1234 567 890
+                  +880 1830244297
                 </li>
                 <li className="flex items-center gap-3">
                   <MapPin className="w-5 h-5 text-blue-800" />

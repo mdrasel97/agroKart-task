@@ -56,9 +56,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
-                  Our Story
-                </a>
+                <a className="hover:text-white">Our Story</a>
               </li>
               <li>
                 <a href="#" className="hover:text-white">
