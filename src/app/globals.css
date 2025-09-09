@@ -120,3 +120,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* a.active{
+  color: #B0DD1D;
+} */
