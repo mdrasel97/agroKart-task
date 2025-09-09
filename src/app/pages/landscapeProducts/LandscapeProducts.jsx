@@ -49,6 +49,7 @@ export default function LandscapeProducts() {
                           alt={product.name}
                           fill
                           className="object-cover rounded-md p-0"
+                          sizes="100vw"
                         />
                       </div>
                       <h3 className="text-lg font-semibold">{product.name}</h3>

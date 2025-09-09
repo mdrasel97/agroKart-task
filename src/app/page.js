@@ -30,7 +30,7 @@ export default function Home() {
       });
   }, []);
 
-  console.log(products);
+  // console.log(products);
   return (
     <div className="md:w-11/12 mx-auto">
       {/* <h1>project</h1> */}
